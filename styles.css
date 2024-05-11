@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.divLogin{
+    height: 800px;
+    width: 800px;
+    background-color: #003554;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campoLogin{
+    color: white;
+    width: 70%;
+}
+.campoSenha{
+    color: white;
+    width: 70%;
+}
+.botaoLogin{
+    border: none;
+    width: 40%;
+    height: 7%;
+    border-radius: 40px;
+    background-color: #0582CA;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.textLogin{
+    color: white; font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 800; 
+    font-size: 50px;
+}
+.inputEmail{
+    height: 40px;
+    width: 100%;
+    background-color: #0582CA;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.inputSenha{
+    height: 40px;
+    width: 100%;
+    background-color: #0582CA;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.legendSenha{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+.legendEmail{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    font-weight: 600;
+}
